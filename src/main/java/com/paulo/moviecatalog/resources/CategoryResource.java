@@ -1,14 +1,13 @@
-package resources;
+package com.paulo.moviecatalog.resources;
 
-import entities.Category;
+import com.paulo.moviecatalog.entities.Category;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import services.CategoryService;
+import com.paulo.moviecatalog.services.CategoryService;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

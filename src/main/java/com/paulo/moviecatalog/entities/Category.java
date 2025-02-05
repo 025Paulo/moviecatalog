@@ -1,4 +1,4 @@
-package entities;
+package com.paulo.moviecatalog.entities;
 
 import jakarta.persistence.*;
 

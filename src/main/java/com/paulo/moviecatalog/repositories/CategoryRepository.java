@@ -1,6 +1,7 @@
-package repositories;
+package com.paulo.moviecatalog.repositories;
 
-import entities.Category;
+
+import com.paulo.moviecatalog.entities.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
